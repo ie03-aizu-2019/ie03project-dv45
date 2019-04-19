@@ -20,11 +20,12 @@ public class Input {
 					value[i] = Integer.parseInt(input[i]);
 				}else {
 				//	System.out.println(input[i]);
-				//	System.out.println("f1");
+					System.out.println("f1");
 					return false;
 				}
 			}
 		}else {
+			System.out.println("f2");
 		return false;
 		}
 		return true;
