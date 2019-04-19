@@ -9,11 +9,11 @@ public class Line {
 	}
 
 
-	Point getPointp() {
+	Point getPointP() {
 		return this.p;
 	}
 
-	Point getPointq() {
+	Point getPointQ() {
 		return this.q;
 	}
 }
