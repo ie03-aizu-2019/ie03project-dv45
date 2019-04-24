@@ -102,14 +102,10 @@ public class Ex1 {
 			Point p = itr.next();
 			BigDecimal bd1 = new BigDecimal(p.getPointX());
 			BigDecimal bd2 = new BigDecimal(p.getPointY());
-			BigDecimal bdx = bd1.setScale(5,BigDecimal.ROUND_UP);
-			BigDecimal bdy = bd2.setScale(5,BigDecimal.ROUND_UP);
+			BigDecimal bdx = bd1.setScale(5,BigDecimal.ROUND_HALF_UP);
+			BigDecimal bdy = bd2.setScale(5,BigDecimal.ROUND_HALF_UP);
 			System.out.println(bdx.doubleValue() + " " + bdy.doubleValue());
 		}
-
-
-
-
 
 	}
 
